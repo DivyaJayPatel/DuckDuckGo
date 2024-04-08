@@ -10,11 +10,11 @@ This project automates search tests on the DuckDuckGo search engine using a Page
 
 **BaseTest.java:** This class provides common functionalities like opening the browser and navigating to the DuckDuckGo URL (likely defined in a configuration file).
 
-**config.properties:** his file stores configuration data such as the browser name and DuckDuckGo URL.
+**config.properties:** This file stores configuration data such as the browser name and DuckDuckGo URL.
 
 **DuckDuckGoSearchPage.java** This class interacts with the search box element on the DuckDuckGo homepage, allowing you to enter search terms.
 
-**DuckDuckGoSearchResultPage.java:** TThis class handles elements displayed after a search, potentially including functionalities to access search results (titles, images, etc.).
+**DuckDuckGoSearchResultPage.java:** This class handles elements displayed after a search, potentially including functionalities to access search results (titles, images, etc.).
 
 **ExtentReporterNg:** This library helps generate reports for your automated tests.
 
