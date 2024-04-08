@@ -42,6 +42,6 @@ This project automates search tests on the DuckDuckGo search engine using a Page
 
 **IDE (Recommended):** Eclipse
 
-**eb Automation Library:** Selenium WebDriver
+**Web Automation Library:** Selenium WebDriver
 
 **Reporting:** ExtentReporterNg
