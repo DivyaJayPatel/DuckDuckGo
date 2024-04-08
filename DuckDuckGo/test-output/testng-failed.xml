@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DuckDuckSearchEngine]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportLister.ExtentReporterNG"/>
+  </listeners>
+  <test name="Coding Exercies(failed)">
+    <classes>
+      <class name="com.duckduck.qa.testcases.DuckDuckGoSerchResult">
+        <methods>
+          <include name="wallpaperelement"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.duckduck.qa.testcases.DuckDuckGoSerchResult -->
+    </classes>
+  </test> <!-- Coding Exercies(failed) -->
+</suite> <!-- Failed suite [DuckDuckSearchEngine] -->
