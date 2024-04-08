@@ -103,9 +103,7 @@ public class DuckDuckGoSerchResult extends TestBase
 	
 	private boolean containsCar(String title) 
 	{
-		// Split the title into words
 		String[] words = title.split("\\s+");
-		// Check if any of the words match "car" or "cars" as separate words (case-insensitive)
 		for (String word : words)
 		{
 			if (word.equalsIgnoreCase("car") || word.equalsIgnoreCase("cars") && word.equalsIgnoreCase("CAR") || word.equalsIgnoreCase("CARS") )
